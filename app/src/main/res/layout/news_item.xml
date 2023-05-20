@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:padding="@dimen/padding_small"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        tools:text="Ahora vas a poder tener ChatGPT en tu iPhone con la app oficial" />
+
+    <TextView
+        android:id="@+id/dateTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_small"
+        tools:text="20.05.2023" />
+
+    <TextView
+        android:id="@+id/descriptionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:ellipsize="end"
+        android:maxLines="5"
+        android:padding="@dimen/padding_small"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        tools:text="OpenAI, la compañía detrás de GPT, presentó la app oficial de ChatGPT, lo que permite dialogar con esa herramienta desde el iPhone" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        tools:src="@drawable/splash_background" />
+
+</LinearLayout>
